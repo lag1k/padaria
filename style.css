@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background-image: url(https://img.freepik.com/fotos-gratis/diferentes-tipos-de-pao-feitos-de-farinha-de-trigo_140725-5648.jpg?w=1060&t=st=1710704475~exp=1710705075~hmac=8d21b32f4d2ce47b0ee57840d8e7ea447f9bc95dbf3ad1b28a09df555efbb303);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.tt{
+    padding: 0px;
+    justify-content: space-between;
+    background-color: rgb(0, 42, 30);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 1520px;
+    
+}
+#titulo1{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 1px black;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:focus ~ .dd{
+    height: 300px;
+    width: 200px;
+}
+
+
+#ss{
+    border: 2px 2px 2px rgb(187, 88, 69);
+}
+
+.Colun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.212);
+    
+}
+
+
+#cafe{
+    width: 300px;
+    box-shadow: 4px 4px 10px black;
+    padding: 10px;
+   
+}
+
+#cafetxt{
+    text-align: center;
+    color: black;
+    text-decoration:double;
+    padding: 20px;
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    box-shadow: 4px 4px 10px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#txt{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    width: 800px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    box-shadow: 4px 4px 10px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    width: 800px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    box-shadow: 4px 4px 10px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#txt_c{
+    text-align: justify;
+    font-size: 25px;
+    padding: 50px;
+    color: white;
+    text-decoration: double 1px;
+    width: 1500px;
+    background-color: rgb(20, 20, 20, 0.950);
+    margin-top: -15px;
+    margin-bottom: -15px ;
+}
+
+#txt_b{
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+    color: rgb(250, 90, 67);
+    text-shadow: 0px 1px 2px rgb(250, 90, 67);
+    width: 1500px;
+    background-color: rgba(20, 20, 20, 0.950);
+    text-decoration: underline double 1px;
+}
+
+#txt_bt{
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+    color: rgb(250, 90, 67);
+    text-shadow: 0px 1px 2px rgb(250, 90, 67);
+    width: 1500px;
+    background-color: rgba(20, 20, 20, 0.950);
+    text-decoration: underline double 1px;
+    margin-top: -5px;
+}
+
+#txt_b2{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    text-decoration: double 1px;
+    width: 1500px;
+    background-color: rgb(20, 20, 20, 0.950);
+    margin-top: -55px;
+    margin-bottom: -5px;
+}
+
+#cafe2{
+    width: 800px;
+    padding: 10px;
+    display: flex;
+
+} 
+
+#link{
+    color: white;
+    text-decoration: underline 1px;
+
+}
